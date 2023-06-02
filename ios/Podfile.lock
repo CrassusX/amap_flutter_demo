@@ -1,0 +1,50 @@
+PODS:
+  - amap_flutter_map (0.0.1):
+    - AMapNavi
+    - AMapSearch
+    - Flutter
+  - AMapFoundation (1.6.5.1)
+  - AMapNavi (7.8.0):
+    - AMapFoundation (~> 1.6.5)
+  - AMapSearch (7.8.0):
+    - AMapFoundation (~> 1.6.4)
+  - Flutter (1.0.0)
+  - flutter_plugin_android_lifecycle (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+
+DEPENDENCIES:
+  - amap_flutter_map (from `.symlinks/plugins/amap_flutter_map/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapNavi
+    - AMapSearch
+
+EXTERNAL SOURCES:
+  amap_flutter_map:
+    :path: ".symlinks/plugins/amap_flutter_map/ios"
+  Flutter:
+    :path: Flutter
+  flutter_plugin_android_lifecycle:
+    :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  amap_flutter_map: 6bf0f494c06bc9f99f2c3dd580870e9d2762f7e2
+  AMapFoundation: b67560a6f21aab81c8c12f84616b55a3833b6253
+  AMapNavi: ce659052825437090becd14c3bbd5a71b88fcafe
+  AMapSearch: a62d0b2508270dff5a9b05ba3af9fc8843b48c8a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+
+PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
+
+COCOAPODS: 1.9.3
